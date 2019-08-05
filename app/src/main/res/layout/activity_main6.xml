@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity"
+    android:background="@drawable/s">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:context=".MainActivity">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/app0"
+            android:layout_marginTop="10dp"
+            android:id="@+id/a"
+            style="@style/White"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            />
+        <ListView
+            android:id="@+id/listUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/White"></ListView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="72dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app2"
+            android:layout_marginTop="10dp"
+            android:id="@+id/a"
+            style="@style/White"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif"  />
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app3"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_below="@+id/a"
+            style="@style/White"
+            />
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/c"
+            android:text="@string/app02"
+            android:id="@+id/b"
+            android:onClick="f2"
+            android:layout_gravity="right"
+            android:typeface="serif"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

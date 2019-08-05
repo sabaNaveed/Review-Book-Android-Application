@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ReviewYourBook</string>
+    <string name="app1">RYB</string>
+    <string name="app2">About Us</string>
+    <string name="app3">\n\t\tReviewYourBook Application is kind of a library for a user in which he/she can easily manage reviews for books. Its purpose is that if a user reads a book and wants to review it, one can store their opinion about a book in this application. It also helps the user to keep record of which books the user has read so far.\n </string>
+    <string name="app4">Book name   : </string>
+    <string name="app5">Author name : </string>
+    <string name="app6">No. of Pages : </string>
+    <string name="app8">Review      : </string>
+    <string name="app9">Book Details</string>
+    <string name="app0">All Books  </string>
+    <string name="app7">Your Book</string>
+    <string name="app01">Search</string>
+    <string name="app02">DONE</string>
+    <string name="app03">Update</string>
+    <string name="app04">EDIT</string>
+    <string name="app05">DELETE</string>
+    <string name="app06">Add Book Name</string>
+    <string name="app07">Add Author Name</string>
+    <string name="app08">Add Page No.</string>
+    <string name="app09">Add Review</string>
+    <string name="i">Enter book name...</string>
+    <string name="back">BACK</string>
+</resources>

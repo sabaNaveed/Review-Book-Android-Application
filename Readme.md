@@ -1,4 +1,4 @@
-ReviewYourBook Application is kind of a library with interactive interface, for a user to keep tracks of books a person has bought or read, and write reviews about them.
+ReviewYourBook Application is kind of a library with interactive interface, for a user to keep track of books a person has bought or read, and write reviews about them.
 
 user can 
 1. add (book details and reviews)
